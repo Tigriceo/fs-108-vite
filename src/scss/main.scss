@@ -1,0 +1,25 @@
+$mobile_small:480px;
+
+@mixin minW-PhoneS {
+    @media screen and (min-width: $mobile_small) {
+        @content;
+    }
+}
+
+.slider {
+    opacity: 1;
+
+    &-inner {
+        font-style: 12px;
+
+        &__item {
+            background-color: red;
+        }
+    }
+
+    @include minW-PhoneS {
+        background-color: darkblue;
+    }
+}
+
+@import url('./_header.scss');

@@ -1,0 +1,14 @@
+.slider{
+    margin: 100px 0;
+}
+.slider .swiper-slide {
+  padding: 50px 20px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 10px solid red;
+  font-size: 40px;
+  font-weight: 700;
+}
